@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Calculator.Core\Calculator.Core.csproj" />
+    <ProjectReference Include="..\..\src\Calculator.App\Calculator.App.csproj" />
   </ItemGroup>
 
 </Project>
