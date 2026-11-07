@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Calculator.App;
+
+try
+{
+    new ConsoleMenu(Console.In, Console.Out).Run();
+}
+catch (EndOfStreamException)
+{
+    // Input ended (for example Ctrl+D), so exit quietly.
+}
